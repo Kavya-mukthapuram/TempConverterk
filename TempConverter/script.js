@@ -38,6 +38,8 @@ function temperature() {
             farenheitInput.value = farenheitFromK;
             break;
 
+            
+
         case "f":
             const farenheitValue = parseFloat(farenheitInput.value);
             let celsiusFromF = (farenheitValue - 32) * 5/9;
@@ -47,7 +49,13 @@ function temperature() {
             kelvinInput.value = kelvinFromF;
             break;
 
+
+            
         default:
             alert("valid number");
+
+
+        
     }
 }
+
